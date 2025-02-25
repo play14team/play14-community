@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "conventionalCommits.scopes": ["workspace", "backend"]
+  "conventionalCommits.scopes": ["workspace", "backend", "frontend"],
+  "terminal.integrated.splitCwd": "workspaceRoot"
 }

@@ -41,5 +41,12 @@
     "typescript-eslint": "^8.20.0",
     "vite": "^6.0.0",
     "vitest": "^3.0.0"
+  },
+  "dependencies": {
+    "@svelteuidev/composables": "^0.15.7",
+    "@svelteuidev/core": "^0.15.7",
+    "@svelteuidev/dates": "^0.15.7",
+    "@svelteuidev/motion": "^0.15.7",
+    "dayjs": "^1.11.13"
   }
 }
