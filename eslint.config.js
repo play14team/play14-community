@@ -1,6 +1,6 @@
-import prettier from 'eslint-config-prettier'
-import js from '@eslint/js'
 import { includeIgnoreFile } from '@eslint/compat'
+import js from '@eslint/js'
+import prettier from 'eslint-config-prettier'
 import svelte from 'eslint-plugin-svelte'
 import globals from 'globals'
 import { fileURLToPath } from 'node:url'
@@ -23,6 +23,18 @@ export default ts.config(
     }
   },
   {
+    rules: {
+      // "@typescript-eslint/no-unused-vars": [
+      // 	"error",
+      // 	{
+      // 		argsIgnorePattern: "^_",
+      // 		varsIgnorePattern: "^_",
+      // 	},
+      // ],
+      // "@typescript-eslint/no-unused-expressions": "off",
+    }
+  },
+  {
     files: ['**/*.svelte'],
 
     languageOptions: {
@@ -30,5 +42,8 @@ export default ts.config(
         parser: ts.parser
       }
     }
+  },
+  {
+    ignores: ['**/build/', '**/.svelte-kit/', '**/dist/', '**/.svelte-kit/**/*']
   }
 )
