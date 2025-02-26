@@ -1,1 +1,1 @@
-<h1>Settings</h1>
+<h1>Profile</h1>

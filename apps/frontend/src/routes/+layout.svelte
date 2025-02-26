@@ -1,13 +1,20 @@
 <script lang="ts">
+  import LayoutFooter from '$lib/components/LayoutFooter.svelte'
   import '../app.css'
   let { children } = $props()
 </script>
 
 <div class="flex h-screen flex-col">
   <!-- Header -->
-  <header class="bg-gray-800 p-4 text-white">
-    <div class="container mx-auto flex items-center justify-between">
-      <h1 class="text-xl font-bold">My App</h1>
+  <header class="p-4">
+    <div class="mx-auto flex items-center justify-between">
+      <h1 class="text-xl font-bold">#play14</h1>
+      <div class="breadcrumbs text-sm">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li>Dashboard</li>
+        </ul>
+      </div>
       <nav>
         <ul class="flex space-x-4">
           <li><a href="/" class="hover:underline">Home</a></li>
@@ -20,11 +27,11 @@
 
   <div class="flex flex-1">
     <!-- Sidebar -->
-    <aside class="w-64 bg-gray-100 p-4">
+    <aside class="w-64 p-4">
       <ul class="space-y-2">
-        <li><a href="/" class="block rounded p-2 hover:bg-gray-200">Dashboard</a></li>
-        <li><a href="/profile" class="block rounded p-2 hover:bg-gray-200">Profile</a></li>
-        <li><a href="/settings" class="block rounded p-2 hover:bg-gray-200">Settings</a></li>
+        <li><a href="/" class="block rounded p-2 hover:bg-gray-700">Dashboard</a></li>
+        <li><a href="/profile" class="block rounded p-2 hover:bg-gray-700">Profile</a></li>
+        <li><a href="/settings" class="block rounded p-2 hover:bg-gray-700">Settings</a></li>
       </ul>
     </aside>
 
@@ -33,11 +40,5 @@
       {@render children()}
     </main>
   </div>
-
-  <!-- Footer -->
-  <footer class="bg-gray-800 p-4 text-white">
-    <div class="container mx-auto text-center">
-      <p>&copy; 2025 My App. All rights reserved.</p>
-    </div>
-  </footer>
+  <LayoutFooter />
 </div>
