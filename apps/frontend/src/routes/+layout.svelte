@@ -1,5 +1,6 @@
 <script lang="ts">
   import '../app.css'
+
   let { children } = $props()
 </script>
 
@@ -20,7 +21,7 @@
 
   <div class="flex flex-1">
     <!-- Sidebar -->
-    <aside class="w-64 bg-gray-100 p-4">
+    <aside class="w-64 bg-gray-500 p-4">
       <ul class="space-y-2">
         <li><a href="/" class="block rounded p-2 hover:bg-gray-200">Dashboard</a></li>
         <li><a href="/settings" class="block rounded p-2 hover:bg-gray-200">Settings</a></li>
@@ -41,3 +42,10 @@
     </div>
   </footer>
 </div>
+
+<style lang="postcss">
+  @reference "tailwindcss/theme";
+  :global(html) {
+    background-color: theme(--color-gray-200);
+  }
+</style>
