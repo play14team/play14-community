@@ -1,11 +1,18 @@
-<h1>Home</h1>
-
-<h2>Welcome</h2>
-
-<div>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nesciunt commodi quia officiis, sequi
-  pariatur fugiat quam ex ab labore, dolorum, laudantium quos sint consequuntur cumque in voluptatum
-  placeat vitae.
+<div class="hero bg-base-200 min-h-screen">
+  <div class="hero-content flex-col lg:flex-row">
+    <img
+      src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <h1 class="text-5xl font-bold">Box Office News!</h1>
+      <p class="py-6">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
 </div>
 
 <h2>Stats</h2>
@@ -57,7 +64,10 @@
     <div class="stat-figure text-secondary">
       <div class="avatar online">
         <div class="w-16 rounded-full">
-          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+            alt="Stat"
+          />
         </div>
       </div>
     </div>

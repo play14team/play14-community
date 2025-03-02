@@ -1,18 +1,36 @@
-<header class="p-4">
-  <div class="mx-auto flex items-center justify-between">
-    <h1 class="text-xl font-bold">#play14</h1>
-    <div class="breadcrumbs text-sm">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li>Dashboard</li>
-      </ul>
+<script>
+  import Avatar from './Avatar.svelte'
+  import HeaderMenu from './HeaderMenu.svelte'
+  import SearchBar from './SearchBar.svelte'
+  import ThemeToggle from './ThemeToggle.svelte'
+</script>
+
+<div class="navbar bg-base-100">
+  <div class="navbar-start">
+    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-5 w-5"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h7"
+        />
+      </svg>
     </div>
-    <nav>
-      <ul class="flex space-x-4">
-        <li><a href="/" class="hover:underline">Home</a></li>
-        <li><a href="/about" class="hover:underline">About</a></li>
-        <li><a href="/contact" class="hover:underline">Contact</a></li>
-      </ul>
-    </nav>
   </div>
-</header>
+  <div class="navbar-center">
+    <a class="btn btn-ghost text-xl">#play14</a>
+  </div>
+  <div class="navbar-end">
+    <HeaderMenu />
+    <SearchBar />
+    <ThemeToggle />
+    <Avatar />
+  </div>
+</div>
