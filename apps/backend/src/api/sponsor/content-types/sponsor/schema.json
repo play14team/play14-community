@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sponsors",
+  "info": {
+    "singularName": "sponsor",
+    "pluralName": "sponsors",
+    "displayName": "sponsor"
+  },
+  "options": {
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "socialNetworks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact.social-network"
+    }
+  }
+}
