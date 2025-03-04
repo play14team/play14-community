@@ -2,6 +2,7 @@
   "name": "play14-community",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev:backend": "pnpm --filter backend dev",

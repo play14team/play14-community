@@ -16,7 +16,7 @@
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <nav class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <a>
+    <a href="/" aria-label="footer social">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -29,7 +29,7 @@
         ></path>
       </svg>
     </a>
-    <a>
+    <a href="/" aria-label="footer social">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -42,7 +42,7 @@
         ></path>
       </svg>
     </a>
-    <a>
+    <a href="/" aria-label="footer social">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"

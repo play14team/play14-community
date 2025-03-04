@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "event_locations",
+  "info": {
+    "singularName": "event-location",
+    "pluralName": "event-locations",
+    "displayName": "event-location"
+  },
+  "options": {
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": false
+    },
+    "country": {
+      "type": "text"
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event",
+      "mappedBy": "location"
+    },
+    "location": {
+      "type": "json"
+    }
+  }
+}
