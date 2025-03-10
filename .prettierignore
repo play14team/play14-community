@@ -5,3 +5,8 @@ yarn.lock
 
 # Config files
 eslint.config.js
+
+coverage
+dist
+build
+.strapi
