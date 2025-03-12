@@ -44,11 +44,7 @@
       "allowedTypes": ["images"]
     },
     "content": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbar"
-      },
-      "customField": "plugin::ckeditor5.CKEditor"
+      "type": "text"
     },
     "category": {
       "type": "enumeration",

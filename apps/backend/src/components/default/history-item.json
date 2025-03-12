@@ -22,11 +22,7 @@
       "required": true
     },
     "description": {
-      "type": "customField",
-      "options": {
-        "preset": "toolbar"
-      },
-      "customField": "plugin::ckeditor5.CKEditor",
+      "type": "text",
       "required": true
     },
     "image": {
