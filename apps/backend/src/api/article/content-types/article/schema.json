@@ -44,7 +44,7 @@
       "allowedTypes": ["images"]
     },
     "content": {
-      "type": "text"
+      "type": "richtext"
     },
     "category": {
       "type": "enumeration",

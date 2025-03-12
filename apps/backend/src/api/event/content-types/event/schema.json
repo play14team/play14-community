@@ -4,10 +4,11 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "event"
+    "displayName": "event",
+    "description": ""
   },
   "options": {
-    "comment": ""
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -59,7 +60,7 @@
       "allowedTypes": ["images"]
     },
     "description": {
-      "type": "text"
+      "type": "richtext"
     },
     "timetable": {
       "type": "component",

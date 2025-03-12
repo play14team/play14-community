@@ -11,19 +11,19 @@
   },
   "attributes": {
     "openspace": {
-      "type": "text"
+      "type": "richtext"
     },
     "lawOfTwoFeet": {
-      "type": "text"
+      "type": "richtext"
     },
     "butterfly": {
-      "type": "text"
+      "type": "richtext"
     },
     "bumblebee": {
-      "type": "text"
+      "type": "richtext"
     },
     "schedule": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }

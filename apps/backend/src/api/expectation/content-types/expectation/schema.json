@@ -24,7 +24,7 @@
       "required": true
     },
     "content": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     }
   }
