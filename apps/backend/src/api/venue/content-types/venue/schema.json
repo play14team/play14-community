@@ -45,7 +45,8 @@
       "mappedBy": "venue"
     },
     "location": {
-      "type": "json"
+      "type": "customField",
+      "customField": "global::map-field"
     },
     "addressDetails": {
       "type": "string"

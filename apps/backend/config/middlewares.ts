@@ -8,21 +8,17 @@ export default [
         useDefaults: true,
         directives: {
           'connect-src': ["'self'", 'https:'],
+          'script-src': ["'self'", "'unsafe-inline'", 'cdn.jsdelivr.net', 'api.mapbox.com'],
           'img-src': [
             "'self'",
             'data:',
             'blob:',
-            'dl.airtable.com', // Required for Strapi < 4.10.6, you can remove it otherwise
-            'https://market-assets.strapi.io', // Required for Strapi >= 4.10.6, you can remove it otherwise
+            'dl.airtable.com',
+            'https://market-assets.strapi.io',
             process.env.STORAGE_CDN_URL
           ],
-          'media-src': [
-            "'self'",
-            'data:',
-            'blob:',
-            'dl.airtable.com', // Required for Strapi < 4.10.6, you can remove it otherwise
-            process.env.STORAGE_CDN_URL
-          ],
+          'media-src': ["'self'", 'data:', 'blob:', 'dl.airtable.com', process.env.STORAGE_CDN_URL],
+          'worker-src': ['blob:'],
           upgradeInsecureRequests: null
         }
       }

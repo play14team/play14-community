@@ -86,7 +86,8 @@
       "mappedBy": "proposedBy"
     },
     "location": {
-      "type": "json"
+      "type": "customField",
+      "customField": "global::map-field"
     }
   }
 }

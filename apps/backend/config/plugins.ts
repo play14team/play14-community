@@ -17,5 +17,8 @@ export default ({ env }) => ({
         removeCN: env('REMOVE_CONTAINER_NAME') // optional, if you want to remove container name from the URL
       }
     }
+  },
+  'map-field': {
+    enabled: true
   }
 })

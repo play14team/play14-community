@@ -29,7 +29,8 @@
       "mappedBy": "location"
     },
     "location": {
-      "type": "json"
+      "type": "customField",
+      "customField": "global::map-field"
     }
   }
 }
