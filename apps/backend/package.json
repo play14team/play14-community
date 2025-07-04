@@ -20,6 +20,7 @@
     "react-router-dom": "^6.30.0",
     "strapi-plugin-country-select": "^2.1.0",
     "strapi-plugin-map-field": "2.0.0",
+    "strapi-plugin-timezone-select": "2.0.0",
     "strapi-provider-upload-azure-storage": "^3.4.0",
     "styled-components": "^6.1.15"
   },

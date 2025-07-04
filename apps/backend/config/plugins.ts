@@ -20,5 +20,8 @@ export default ({ env }) => ({
   },
   'map-field': {
     enabled: true
+  },
+  'country-select': {
+    enable: true
   }
 })
