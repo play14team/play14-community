@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "formats",
+  "info": {
+    "singularName": "format",
+    "pluralName": "formats",
+    "displayName": "format"
+  },
+  "options": {
+    "comment": ""
+  },
+  "attributes": {
+    "openspace": {
+      "type": "richtext"
+    },
+    "lawOfTwoFeet": {
+      "type": "richtext"
+    },
+    "butterfly": {
+      "type": "richtext"
+    },
+    "bumblebee": {
+      "type": "richtext"
+    },
+    "schedule": {
+      "type": "richtext"
+    }
+  }
+}

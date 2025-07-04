@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "histories",
+  "info": {
+    "singularName": "history",
+    "pluralName": "histories",
+    "displayName": "history"
+  },
+  "options": {
+    "comment": ""
+  },
+  "attributes": {
+    "founders": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "keyMoments": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "default.history-item"
+    }
+  }
+}

@@ -48,7 +48,7 @@
 
     <!-- Menu Item 2 -->
     <li>
-      <a class="flex items-center gap-4">
+      <a href="/" class="flex items-center gap-4">
         <img src="https://via.placeholder.com/40" alt="Settings" class="h-8 w-8 rounded-full" />
         <span
           class={`transition-opacity duration-300 ${isCollapsed ? 'hidden opacity-0' : 'opacity-100'}`}
@@ -71,7 +71,7 @@
         </summary>
         <ul class="pl-8">
           <li>
-            <a class="flex items-center gap-4">
+            <a href="/" class="flex items-center gap-4">
               <img
                 src="https://via.placeholder.com/40"
                 alt="Submenu 1"
@@ -85,7 +85,7 @@
             </a>
           </li>
           <li>
-            <a class="flex items-center gap-4">
+            <a href="/" class="flex items-center gap-4">
               <img
                 src="https://via.placeholder.com/40"
                 alt="Submenu 2"

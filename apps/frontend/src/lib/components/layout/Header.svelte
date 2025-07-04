@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="navbar-center">
-    <a class="btn btn-ghost text-xl">#play14</a>
+    <a href="/" class="btn btn-ghost text-xl">#play14</a>
   </div>
   <div class="navbar-end">
     <HeaderMenu />

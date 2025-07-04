@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "hostings",
+  "info": {
+    "singularName": "hosting",
+    "pluralName": "hostings",
+    "displayName": "hosting"
+  },
+  "options": {
+    "comment": ""
+  },
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}
